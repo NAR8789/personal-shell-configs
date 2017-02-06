@@ -1,3 +1,5 @@
+export RI='-T --format ansi'       # if I want a pager, I'll pipe to one myself; colorized
+
 alias vim='vim -p'                 # open multiple files in tabs
 alias ls='ls -F --color=always'    # append indicator, always colorized
 alias less='less -MSiR'            # show status, nowrap, smart-case, preserve ANSI colors
