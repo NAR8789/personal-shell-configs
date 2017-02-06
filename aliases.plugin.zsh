@@ -19,12 +19,3 @@ alias cp='cp -i'                   # prompt before overwrite, because I'm a klut
 # If I want to open in gui mode, I can open from an external launcher.
 alias emacs='emacs -nw'
 alias octave='octave --no-gui'
-
-# os-specific aliases
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-  alias ls='ls -F --color=always'    # append indicator, always colorized
-  alias wicd-client='wicd-client -n' # probably don't want tray daemon if launching wicd from command line
-  alias df='df -x tmpfs -x devtmpfs' # hide the weird filesystems in df output
-elif [[ "$OSTYPE" == "darwin"* ]]; then
-  alias ls='ls -FG'    # append indicator, colorized
-fi
