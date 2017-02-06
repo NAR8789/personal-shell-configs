@@ -6,6 +6,7 @@ alias grep='grep --color'          # always color grep
 alias egrep='egrep --color'        # always color egrep
 alias fgrep='fgrep --color'        # always color fgrep
 alias pgrep='pgrep --color'        # always color pgrep
+alias jq='jq -C'                   # colorize jq
 # alias sed='sed -r'               # ERE is nicer than BRE. Disabled... unfortunately this interferes with some plugins (zplug and alias-tips)
 alias perl='perl -w'               # enable warnings
 alias mf='echo typo\?'             # I have never wanted to run 'mf', but sometimes typo 'mv' as 'mf'
