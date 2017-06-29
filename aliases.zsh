@@ -16,6 +16,8 @@ alias mv='mv -i'             # prompt before overwrite, because I'm a klutz
 alias cp='cp -i'             # prompt before overwrite, because I'm a klutz
 alias tmux=byobu
 
+unalias rg                   # defend rg from oh-my-zsh rails plugin
+
 # I'd like emacs and octave to stay in the terminal if I'm launching from terminal.
 # If I want to open in gui mode, I can open from an external launcher.
 alias emacs='emacs -nw'
