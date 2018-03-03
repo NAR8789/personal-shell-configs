@@ -19,3 +19,7 @@ alias tmux=byobu
 # If I want to open in gui mode, I can open from an external launcher.
 alias emacs='emacs -nw'
 alias octave='octave --no-gui'
+
+# some more git tree shortcuts on top of those oh-my-zsh already provides
+alias glols='glol --simplify-by-decoration'
+alias glolas='glola --simplify-by-decoration'
