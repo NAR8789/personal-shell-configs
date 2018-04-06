@@ -2,6 +2,7 @@ export RI='-T --format ansi' # if I want a pager, I'll pipe to one myself; color
 
 alias vim='vim -p'           # open multiple files in tabs
 alias less='less -MSiR'      # show status, nowrap, smart-case, preserve ANSI colors
+export PAGER='less -MSiR'
 alias grep='grep --color'    # always color grep
 alias egrep='egrep --color'  # always color egrep
 alias fgrep='fgrep --color'  # always color fgrep
