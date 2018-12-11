@@ -5,4 +5,4 @@ PROMPT='%B%F{red}%m%F{default}:%F{cyan}$(shrink_path -l -T)%F{default}%b$(git_su
 ZSH_THEME_GIT_PROMPT_BEHIND="↓"
 ZSH_THEME_GIT_PROMPT_AHEAD="↑"
 ZSH_THEME_GIT_PROMPT_LOCAL='L'
-ZSH_THEME_GIT_PROMPT='($BRANCH$MERGING_OR_REBASE$UPSTREAM$BEHIND$AHEAD|$STAGED$CONFLICTS$CHANGED$UNTRACKED$STASHED$CLEAN)'
+ZSH_THEME_GIT_PROMPT='($branch$merge_or_rebase$upstream$behind$ahead|$staged$conflicts$changed$untracked$stashed$clean)'
