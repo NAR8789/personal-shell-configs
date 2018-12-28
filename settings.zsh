@@ -8,8 +8,8 @@ ZSH_THEME_GIT_PROMPT_LOCAL='L'
 ZSH_GIT_PROMPT_SHOW_UPSTREAM=2
 ZSH_THEME_GIT_PROMPT_UPSTREAM_FRONT="%{$fg_bold[blue]%}"
 ZSH_THEME_GIT_PROMPT_UPSTREAM_END="%{${reset_color}%}"
-ZSH_THEME_GIT_PROMPT_MERGING="%{$bg[yellow]$fg[black]%}MERGE"
-ZSH_THEME_GIT_PROMPT_REBASE="%{$bg[yellow]$fg[black]%}REBASE "
+ZSH_THEME_GIT_PROMPT_MERGING="%{$fg_bold[yellow]%}MERGE"
+ZSH_THEME_GIT_PROMPT_REBASE="%{$fg_bold[yellow]%}REBASE "
 ZSH_THEME_GIT_PROMPT='(${(j:|:)${(s:|:)${:-$branch|$upstream|$merge_or_rebase|$behind$ahead$staged$conflicts$changed$untracked$stashed$clean}}})'
 
 # saner line, don't delete me
