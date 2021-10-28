@@ -1,9 +1,9 @@
 function autopage() {
   if [ -t 1 ] ; then
     if [ -t 0 ]; then # stdout and stdin
-      unbuffer "$@" | eval " ${PAGER:-less} --quit-if-one-screen --raw-control-chars"
+      unbuffer "$@" | eval " ${PAGER:-less} --quit-if-one-screen --RAW-CONTROL-CHARS"
     else              # stdout is tty; stdin is not
-      "$@" | eval " ${PAGER:-less} --quit-if-one-screen --raw-control-chars"
+      "$@" | eval " ${PAGER:-less} --quit-if-one-screen --RAW-CONTROL-CHARS"
     fi
   else                # stdout is not tty
     "$@"
