@@ -1,5 +1,7 @@
 export RI='-T --format ansi' # if I want a pager, I'll pipe to one myself; colorized
 
+alias exa='exa --classify --color=always'
+alias e=exa
 alias vim='vim -p'           # open multiple files in tabs
 export PAGER='less --LONG-PROMPT --chop-long-lines --ignore-case --RAW-CONTROL-CHARS'
 alias less="$PAGER"

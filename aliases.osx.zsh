@@ -1,7 +1,7 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
   alias ls="$(
     BASE="$(dirname "${(%):-%N}")"
-    eval $(dircolors "$BASE/dircolors")
+    eval $(gdircolors "$BASE/dircolors")
     echo -n "LS_COLORS='$LS_COLORS' gls --classify --color=always"
   )"
   alias find='find .'  # I usually just want to search in current directory. For explicit directory passing, use '\find'
