@@ -22,6 +22,7 @@ alias grep='grep --color'
 alias egrep='autopage egrep --color'
 alias fgrep='autopage fgrep --color'
 alias pgrep='autopage pgrep --color'
+alias jq='autopage jq'
 # alias sed='sed -r'          # ERE is nicer than BRE. Disabled... unfortunately this interferes with some plugins (zplug and alias-tips)
 alias perl='perl -w'          # enable warnings
 alias mf='echo typo\?'        # I have never wanted to run 'mf', but sometimes typo 'mv' as 'mf'
