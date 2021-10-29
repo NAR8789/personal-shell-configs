@@ -4,5 +4,5 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     eval $(dircolors "$BASE/dircolors")
     echo -n "LS_COLORS='$LS_COLORS' lessless ls --classify --color=always"
   )"
-  alias lessless df='df --exclude-type tmpfs --exclude-type devtmpfs'
+  alias df='lessless df --exclude-type tmpfs --exclude-type devtmpfs'
 fi
