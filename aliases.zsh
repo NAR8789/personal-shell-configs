@@ -28,8 +28,8 @@ alias perl='perl -w'          # enable warnings
 alias mf='echo typo\?'        # I have never wanted to run 'mf', but sometimes typo 'mv' as 'mf'
 alias bc='bc --mathlib'
 alias mkdir='mkdir -p'        # can't use long flags here because osx mkdir doesn't support them
-alias mv='mv --interactive'   # prompt before overwrite, because I'm a klutz
-alias cp='cp --interactive'   # prompt before overwrite, because I'm a klutz
+alias mv='mv -i'              # prompt before overwrite, because I'm a klutz
+alias cp='cp -i'              # prompt before overwrite, because I'm a klutz
 # alias tmux=byobu            # ah? why did I want to do this previously?
 
 # I'd like emacs and octave to stay in the terminal if I'm launching from terminal.
